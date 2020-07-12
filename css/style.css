@@ -16,7 +16,7 @@
 @media only screen and (min-width: 768px) {
 
   h1{
-    font-size: 8rem;
+    font-size: 10rem;
   }
   
   h2{
@@ -161,5 +161,19 @@ h6{
   height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.header-wrapper{
+  display: flex;
+  flex:2;
+  align-items: center;
+}
+.quote-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-layer{
+  z-index: 5;
 }

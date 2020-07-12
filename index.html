@@ -28,6 +28,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="css/header-style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <!-- Favicon -->
@@ -81,8 +82,13 @@
 
 
     <div class="section no-pad-bot" id="index-banner">
-      <h1 class="header center primary-color-text">Welcome</h1>
-      <div>
+
+      <div id="header-background"></div>
+
+      <div class="header-wrapper row center top-layer">
+        <h1 class="header center primary-color-text">Welcome</h1>
+      </div>
+      <div class="top-layer">
         <div class="row center">
           EXPLORE THE WIZARD ACADEMY
         </div>
@@ -93,7 +99,7 @@
     </div>
 
     <div class="container">
-      <div class="section half-height">
+      <div class="section half-height quote-wrapper">
         <div class="row">
           <div class="col s12 offset-m3 m6">
             <h4 class="quote-text blue-grey-text text-darken-2">We believe everyone has the capacity to be creative. The Wizard Academy is a place where people use design to develop their own creative potential.</h3>
@@ -293,6 +299,9 @@
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+    <script src="js/header-script.js"></script>
     <script src="js/init.js"></script>
   </body>
 
