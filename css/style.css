@@ -13,25 +13,34 @@
 	font-size: inherit;
 }
 
-h1{
-  font-size: 8rem;
-}
+@media only screen and (min-width: 768px) {
 
-h2{
-  font-size: 6rem;
-}
-
-h4{
-  font-size: 1.78rem;
+  h1{
+    font-size: 8rem;
+  }
+  
+  h2{
+    font-size: 6rem;
+  }
+  
+  h4{
+    font-size: 1.78rem;
+  }
+  
+  h5{
+    font-size: 1.125rem;
+  }
+  
+  h6{
+    font-size: 1.125rem;
+  }
 }
 
 h5{
-  font-size: 18px;
   line-height: 1.87;
 }
 
 h6{
-  font-size: 18px;
   line-height: 1.87;
 }
 
@@ -133,6 +142,19 @@ h6{
 
 .footer-links{
   line-height: 3;
+}
+
+.vertical-bar{
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  font-weight: 600;
+  /* transform-origin: 0 50%; */
+}
+
+.vertical-bar-separator {
+  background: currentColor;
+  height: 1px;
+  width: 60%;
 }
 
 #index-banner{
