@@ -99,8 +99,6 @@ h6{
 }
 
 .title-text {
-  border-top: 1px solid currentColor;
-  /* font-weight: 700; */
   line-height: 1.1;
   margin-bottom: 4rem;
   margin-top: 0.6rem;
@@ -196,3 +194,52 @@ h6{
 .user-view img{
   width: 40vw;
 }
+
+.course-image{
+  background-image: url(../images/dk12thumb.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.grid {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.grid-line {
+  height: 100vh;
+  border-left: 1px solid #eaeaea;
+}
+
+.course-content{
+  margin-top: 200px;
+}
+
+.course-content-title{
+  border-bottom: 1px solid #0d315b;
+  color: #0d315b;
+  content: "Overview";
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  top: -20px;
+  width: 75%;
+}
+
+.course-content-sub-title{
+  color: #0d315b;
+  content: "Overview";
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  width: 75%;
+}
+

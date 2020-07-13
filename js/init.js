@@ -7,6 +7,8 @@
 
   }); // end of document ready
 
+  var rellax = new Rellax('.rellax');
+
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
