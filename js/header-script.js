@@ -1,6 +1,6 @@
 particlesJS("header-background", {
   particles: {
-    number: { value: 20, density: { enable: true, value_area: 800 } },
+    number: { value: 10, density: { enable: true, value_area: 800 } },
     color: { value: "#ffffff" },
     shape: {
       type: "polygon",
