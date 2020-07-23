@@ -1,7 +1,7 @@
 particlesJS("header-background", {
   particles: {
-    number: { value: 30, density: { enable: true, value_area: 800 } },
-    color: { value: "#b6922e" },
+    number: { value: 10, density: { enable: true, value_area: 800 } },
+    color: { value: "#ffffff" },
     shape: {
       type: "polygon",
       stroke: { width: 0, color: "#000000" },
@@ -39,7 +39,7 @@ particlesJS("header-background", {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "bubble" },
+      onhover: { enable: false, mode: "bubble" },
       onclick: { enable: false, mode: "push" },
       resize: true,
     },
