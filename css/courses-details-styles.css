@@ -38,6 +38,10 @@
     font-size: 1.125rem;
     line-height: 2;
   }
+
+  .nav-bar-logo {
+    height: 64px;
+  }
 }
 
 h5{
@@ -78,7 +82,7 @@ h6{
 }
 
 .nav-bar-logo {
-  height: 64px;
+  height: 56px;
 }
 
 #navbar nav{
