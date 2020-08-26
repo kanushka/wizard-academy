@@ -267,3 +267,8 @@ h6{
   width: 5vw !important;
   height: 5vw !important; 
 }
+
+.course-title-sub {
+  margin-top: -50px;
+  color: #454545;
+}
